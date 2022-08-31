@@ -1,46 +1,46 @@
 import React from "react";
 
-function Main(){
+const Main = ({nombre}) =>{
         return(
         <div className="container text-center">
                 <div className="row">
                         <div className="col">
-                                <p>Producto1</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto2</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto3</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                 </div>
                 <div className="row">
                         <div className="col">
-                                <p>Producto4</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto5</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto6</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                 </div><div className="row">
                         <div className="col">
-                                <p>Producto7</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto8</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                         <div className="col">
-                                <p>Producto9</p>
+                                <p>{nombre}</p>
                                 <img src="" alt="" />
                         </div>
                 </div>

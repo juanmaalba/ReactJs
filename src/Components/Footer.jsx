@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer(){
+const Footer = (saludo)=>{
         return(
         <div >
            <hr/>
@@ -9,7 +9,7 @@ function Footer(){
                         
                 </div>
                 <div className="card-body">
-                <h3 className="card-title">Gracias por visitarnos</h3>
+                <h3 className="card-title">{saludo}</h3>
                 <p className="card-text">Con mucho apoyo de nuestros inversores logramos ser de los mejores</p>
                 </div>
                 <div className="card-footer text-muted">
