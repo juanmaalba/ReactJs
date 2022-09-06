@@ -4,13 +4,13 @@ import Main from './Components/Main';
 import Footer from './Components/Footer';
 import Contador from './Components/Contador';
 function App() {
-  const valor = (cantidad) =>{
+  const onAdd = (cantidad) =>{
     console.log(`Agregaste ${cantidad} unidades`);
   }
   return (
     <div>
       <NavBar item1 = {'PRODUCTOS'} item2= {'PROMOCIONES'} item3= {'CONTACTO'} item4 = {'NOSOTROS'}/>
-      <Contador iniciar ={1} stock={10} valor= {valor}/>
+      <Contador iniciar ={1} stock={10} onAdd= {onAdd}/>
       <Main nombre= {'productos'}/>
       <Footer saludo= {'Gracias por visitarnos!!'}/>
     </div>
