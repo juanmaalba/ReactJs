@@ -1,11 +1,11 @@
 import React from "react";
 
-const Footer = (saludo)=>{
+const Footer = ({saludo})=>{
         return(
         <div >
            <hr/>
            <div className="card text-center">
-                <div class="card-header">
+                <div className="card-header">
                         
                 </div>
                 <div className="card-body">

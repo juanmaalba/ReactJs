@@ -1,4 +1,3 @@
-import App from "../App";
 import { Component } from "react";
 class Input extends Component {
     render(){

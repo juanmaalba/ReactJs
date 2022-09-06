@@ -9,12 +9,12 @@ function App() {
   }
   return (
     <div>
-      <NavBar item1 = 'PRODUCTOS' item2= 'PROMOCIONES' item3= 'CONTACTO' item4 = 'NOSOTROS'/>
+      <NavBar item1 = {'PRODUCTOS'} item2= {'PROMOCIONES'} item3= {'CONTACTO'} item4 = {'NOSOTROS'}/>
       <Contador iniciar ={1} stock={10} valor= {valor}/>
-      <Main nombre= 'productos'/>
-      <Footer saludo= 'Gracias por visitarnos!!'/>
+      <Main nombre= {'productos'}/>
+      <Footer saludo= {'Gracias por visitarnos!!'}/>
     </div>
-  );
+  )
 }
 
 export default App;

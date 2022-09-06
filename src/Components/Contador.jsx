@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import {useState} from 'react';
 
 const Contador = ({iniciar, stock, valor}) =>{
     const [count, setCount] = useState(iniciar);
